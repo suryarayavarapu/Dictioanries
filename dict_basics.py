@@ -38,15 +38,12 @@ dict1["grapes"]=5
 print(dict1)
 #update dictinary with new
 dict1['apple']=10
-print(dict1)
+print(dict1) 
 
-# ihave value i need to update key
-t = {"a": 1, "b": 2, "c": 3}
-new_key='e'
-for_value=2
-for key,value in t.items():
-    if value ==2:
-        key=new_key
-print(t)
-
-           
+d = {1: 'Geeks', 2: 'For', 'age':22}
+for k in d:
+    print (k)     
+for k in d.items():
+    print (k) 
+for k in d.values():
+    print(k)
