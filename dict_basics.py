@@ -27,6 +27,10 @@ print("========")
 print(dict1.get('banana'))#using get method
 
 print("========")
+dict4={2:3,4:1,6:7}
+dict5={key:values for key,values in dict4.items()}
+print("==========")
+print(dict5)
 
 #dictionary constructor asssingment operator"=" is required if i put ":" will errored out "invalid syntax"
 dict2=dict(v1="apple",v2="orange")
@@ -47,3 +51,4 @@ for k in d.items():
     print (k) 
 for k in d.values():
     print(k)
+    
